@@ -1,2 +1,2 @@
 
-web: gunicorn comment-api.wsgi --log-file -
+web: gunicorn comment-api.wsgi:application --log-file -
